@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="quiz-container" id="quiz">
+            <div class="quiz-header">
+                <h2 id="question">Question text</h2>
+                <p id="progress">Question x of 10</p>
+            </div>
+            <div class="options" id="options">
+                <!-- Options will be dynamically loaded here -->
+            </div>
+            <button id="submitBtn" class="submit-btn hide">Next Question</button>
+        </div>
+        <div id="results" class="results-container hide"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
